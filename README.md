@@ -1,4 +1,4 @@
-# Taller Patrón Proxy — Frontend
+﻿# Taller Patrón Proxy — Frontend
 
 Dashboard de observabilidad que consume la API del backend (`tallerproxyPatrones-backend`) para mostrar
 métricas en tiempo real de tres microservicios monitoreados por un **Proxy de logging**: inventario,
@@ -81,4 +81,7 @@ src/
 2. Definir `VITE_API_BASE_URL` con la URL HTTPS del backend en Railway (sin `/` final).
 3. Desplegar y actualizar `APP_CORS_ALLOWED_ORIGINS` en el backend con el dominio de Vercel.
 
-URL de producción: _pendiente de configurar_.
+URL de producción: https://tallerproxy-fronted.vercel.app
+
+Backend: https://tallerproxy-backend-production.up.railway.app
+
